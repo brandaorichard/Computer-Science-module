@@ -1,0 +1,22 @@
+ Dado um array com os seguintes elementos ["zebra", "macaco", "elefante", "arara", "javali"], após duas iterações utilizando bubble sort, como estaria este array?
+
+ 
+Após duas iterações utilizando o algoritmo de ordenação Bubble Sort, o array estaria parcialmente ordenado. O Bubble Sort compara elementos adjacentes e os troca se estiverem na ordem errada. Depois de duas iterações, os dois maiores elementos já estariam nas últimas posições do array.
+
+Vamos visualizar as iterações:
+
+1ª iteração:
+
+Comparação entre "zebra" e "macaco" - sem troca
+Comparação entre "macaco" e "elefante" - sem troca
+Comparação entre "elefante" e "arara" - sem troca
+Comparação entre "arara" e "javali" - sem troca
+2ª iteração:
+
+Comparação entre "zebra" e "macaco" - sem troca
+Comparação entre "macaco" e "elefante" - sem troca
+Comparação entre "elefante" e "arara" - sem troca
+Comparação entre "arara" e "javali" - troca (arara é maior do que javali)
+Após essas duas iterações, "arara" estaria na posição correta, mas "javali" ainda estaria na penúltima posição. Assim, o array estaria parcialmente ordenado como:
+
+["zebra", "macaco", "elefante", "arara", "javali"]
