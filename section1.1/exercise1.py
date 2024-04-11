@@ -10,7 +10,8 @@ def contains_duplicate(numbers):
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(contains_duplicate(numbers))  # Saída esperada: False, pois não há duplicatas
+print(contains_duplicate(numbers))
+# Saída esperada: False, pois não há duplicatas
 
 numbers_with_duplicate = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5]
 print(contains_duplicate(numbers_with_duplicate))
